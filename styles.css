@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;  /* Centre horizontalement le contenu principal */
+    align-items: center;      /* Centre verticalement le contenu principal */
+    min-height: 100vh;        /* Assure que le contenu est centré même si la page est plus petite */
+}
+
+/* Conteneur principal pour le contenu */
+.container {
+    max-width: 800px;
+    margin: 90px;
+    
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centre le texte à l'intérieur du conteneur */
+}
+
+/* Style pour les titres */
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+h2, h3, h4 {
+    color: #555555;
+    text-align: left; /* Maintient les sous-titres alignés à gauche pour la lisibilité */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les paragraphes et listes */
+p, ul {
+    color: #666666;
+    line-height: 1.8; /* Augmente légèrement l'interligne pour une meilleure lisibilité */
+    text-align: left; /* Maintient les paragraphes et listes alignés à gauche */
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 40px; /* Ajoute un espace supplémentaire pour les listes */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Style pour la date de mise à jour */
+.update-date {
+    font-style: italic;
+    color: #999999;
+    margin-bottom: 30px;
+}
+
+/* Style pour les liens */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
